@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -not name '.' | wc -la
+find . -mindepth2 -type d -name ".*" | wc -l
